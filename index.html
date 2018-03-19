@@ -6,9 +6,9 @@
     <title>CrystalColletorGame</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <!-- <script src="javascripts/main.js"></script> -->
+    
     <!-- Add JQuery Library -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
 </head>
 <body>
     <h1>Crystals Colletor Game!</h1>
@@ -23,18 +23,19 @@
             </ul>  
         </p>
     </div>
+    <script type="text/javascript" src="assets/javascripts/game.js"></script>
     <div id="random">
-        <h4>Random Number: <span id="randomNumber"></span></h4>
+        <h3><span id="randomNumber"></span></h3>
     </div>
     <div class="result">
         <p>Win:<span id="wins">0</span></p>
         <p>Losses:<span id="losses">0</span></p>
     </div>
-    <div class="image">
-        <img class = "gemImage" id = "blue" src="assets/images/blue.png" alt="blue">
-        <img class = "gemImage" id = "green" src="assets/images/green.png" alt="green">
-        <img class = "gemImage" id = "red" src="assets/images/red.png" alt="red">
-        <img class = "gemImage" id = "yellow" src="assets/images/yellow.png" alt="yellow">
+    <div id= "crystals" class="image">
+        <img class = "gemImage" id = "one" src="assets/images/blue.png" alt="blue">
+        <img class = "gemImage" id = "two" src="assets/images/green.png" alt="green">
+        <img class = "gemImage" id = "three" src="assets/images/red.png" alt="red">
+        <img class = "gemImage" id = "four" src="assets/images/yellow.png" alt="yellow">
     </div>
     <h2>Your total score is:</h2>
     <div class="score">
