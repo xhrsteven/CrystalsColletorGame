@@ -1,0 +1,39 @@
+*{
+    background-image: url(../images/light-veneer.png)
+}
+h1{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#random, .result{
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: lawngreen;
+    text-align: center;
+    border: 2px solid lightblue;
+}
+.image{
+    clear: both;
+    width: 420px;
+    height: 100px;
+    background: lightpink;
+}
+.gemImage{
+    width: 50px;
+    height: 50px;
+    margin: 20px 20px 20px 20px;
+}
+h2{
+    color: greenyellow;
+}
+.score{
+    width: 420px;
+    background: goldenrod;
+    color: dimgrey;
+    border: 1px solid gray;
+    text-align: center;
+}
+
