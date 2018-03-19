@@ -30,13 +30,15 @@ function reset(){
 function win(){
     alert('You won!');
     wins++;
-    $('wins').text(wins);
+    $('#wins').text(wins);
+    reset();
 }
 //User lose
 function lose(){
     alert('Uhhh You lose!');
     losses++;
     $('#losses').text(losses);
+    reset();
 }
 
 

@@ -5,6 +5,9 @@ h1{
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#container {
+    margin-bottom: 20px;
+}
 #random, .result{
     float: left;
     width: 200px;
