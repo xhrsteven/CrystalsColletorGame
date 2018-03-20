@@ -1,5 +1,4 @@
 # CrystalsColletorGame
-Crystals Colletor Game
 <ul>
 <li>You will be given a random number at the start of the game.</li>
 <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
